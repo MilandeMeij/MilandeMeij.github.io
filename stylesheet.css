@@ -7,13 +7,13 @@
 }
 
 /* Wrapper zodat het niet groter wordt dan 960 pixels */
-#wrapper { 
+#wrapper {
     width:960px;
     margin:0 auto;
     border-radius: 5px;
 }
 
-.wrapper { 
+.wrapper {
     width:960px;
     margin:0 auto;
     border-radius: 5px;
@@ -56,15 +56,15 @@
     margin: 0 auto;
     font-size: 23px;
     font-weight: 600;
-    text-align: left;   
+    text-align: left;
 }
 
 #nav_wrapper {
     width: 960px;
     text-align: left;
-    color: white; 
+    color: white;
     margin-top: -20px;
-    margin-bottom: 40px;    
+    margin-bottom: 40px;
 }
 
 #nav {
@@ -72,14 +72,14 @@
     width: 960px;
     margin: 0 auto;
     font-size: 23px;
-    font-weight: 600;    
+    font-weight: 600;
 }
 
 #nav_wrapper {
     width: 960px;
     margin-right: 0px;
     margin-left: 0px;
-    text-align: left;    
+    text-align: left;
 }
 
 #nav ul {
@@ -87,7 +87,7 @@
     padding: 0;
     margin: 0;
     position: relative;
-    min-width: 200px;   
+    min-width: 200px;
     text-align: center;
 }
 
@@ -100,19 +100,19 @@
 
 #nav ul li:hover {
     background-color: rgba(0, 0, 0, 0.3);
-    border-radius: 10px;    
+    border-radius: 10px;
 }
 
 #nav ul li a, visited {
     color: #46494C;
     display: block;
     padding: 10px;
-    text-decoration: none;    
+    text-decoration: none;
 }
 
 #nav ul li a:hover {
     color: white;
-    border-radius: 10px;    
+    border-radius: 10px;
 }
 
 #nav ul ul li a {
@@ -127,7 +127,7 @@
 
 #nav ul ul {
     display: none;
-    position: absolute;    
+    position: absolute;
     border: 0px solid rgba(0, 0, 0);
     border-top: 0;
     margin-left: 0px;
@@ -149,14 +149,14 @@ a {
     color: white;
     text-decoration: none;
     background-color: rgba(0, 0, 0, 0.3);
-    border-radius: 10px; 
-    
+    border-radius: 10px;
+
 }
 
 /* Headers en paragraphs */
-h1 {    
+h1 {
     font-size: 72px;
-    text-align: center;   
+    text-align: center;
     color: white;
     margin: -40px;
 }
@@ -169,7 +169,7 @@ h3 {
     font-size: 30px;
     text-align: center;
     color: lightgrey;
-    font-style: italic; 
+    font-style: italic;
 }
 
 h4 {
@@ -198,30 +198,37 @@ p {
     text-align: center;
 }
 
+.containerfoto {
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    height:200px !important;
+}
+
 /* Tekstblok over mij */
-#Over_mij {   
+#Over_mij {
     align-content: center;
     text-align: center;
     box-sizing: border-box;
     width:100%;
     color: white;
     border-radius: 10px;
-    background: rgba(0, 0, 0, 0.5); 
+    background: rgba(0, 0, 0, 0.5);
     padding: 5px;
-        
+
 }
 
 /* Foto Quentin naast tekstbalk */
-#Foto {    
+#Foto {
     width: 100%;
     padding-left:25%;
     padding-right: 25%;
     padding-top: 20px;
     align-content: center;
     text-align: center;
-    height: auto;    
+    height: auto;
     opacity: 0.97;
-    z-index: 1;  
+    z-index: 1;
     align-self: center;
     align-items: center;
 }
@@ -234,7 +241,7 @@ img {
     max-height: 100%;
 }
 
-.box { 
+.box {
     background-color: rgba(50, 50, 50, 0.8);
     border-radius: 10px;
     margin-bottom: 350px;
@@ -246,7 +253,7 @@ img {
     color: white;
     text-decoration: underline;
     margin-bottom: -33px;
-    margin-top: 10px;    
+    margin-top: 10px;
 }
 
 .boxrest {
@@ -271,11 +278,11 @@ img {
     float: left;
     margin: 0px;
     text-align: center;
-    
+
 }
 
 .footerclass {
-    margin-top: -100px;    
+    margin-top: -100px;
     width: 100%;
     height: auto;
     padding-top: -10px;
@@ -298,8 +305,8 @@ h5 {
 }
 
 #TinkerLogo {
-    text-align: center;  
-    background-color: rgba(100, 100, 100, 0.8); 
+    text-align: center;
+    background-color: rgba(100, 100, 100, 0.8);
     border-radius: 10px;
     padding-top: 25px;
 }
@@ -308,5 +315,16 @@ h5 {
     margin-top: -50px;
     margin-bottom: 50px;
 }
+
+.afkorting {font-size: 25px; color: white;float:left;}
+.specialpadding{margin-left:50px !important;margin-right:50px !important;float:left;}
+
+
+.w3-display-left{position:absolute;top:50%;left:0%;transform:translate(0%,-50%);-ms-transform:translate(-0%,-50%)}
+.w3-display-right{position:absolute;top:50%;right:0%;transform:translate(0%,-50%);-ms-transform:translate(0%,-50%)}
+.w3-content{max-width:980px;margin:auto}.w3-rest{overflow:hidden}
+.w3-tooltip,.w3-display-container{position:relative}.w3-tooltip .w3-text{display:none}.w3-tooltip:hover .w3-text{display:inline-block}
+.w3-black,.w3-hover-black:hover{color:#fff!important;background-color:#000!important}
+.w3-btn,.w3-button{border:none;display:inline-block;outline:0;padding:50px 20px;border-radius:10px;vertical-align:middle;overflow:hidden;text-decoration:none;color:inherit;background-color:inherit;text-align:center;cursor:pointer;white-space:nowrap}
 
 
