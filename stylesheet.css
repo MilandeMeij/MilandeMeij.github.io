@@ -195,6 +195,13 @@ p {
     font-size: 20px;
 }
 
+y {
+    font-style: italic;
+    font-weight: bold;
+    color: lightgray;
+    font-size: 13px;
+}
+
 
 /* Eerste item in de site na de menubalk */
 
